@@ -1,0 +1,115 @@
+Start testing: Oct 23 10:32 EDT
+----------------------------------------------------------
+1/4 Testing: TrapezoidalIntegrationTest
+1/4 Test: TrapezoidalIntegrationTest
+Command: "/home/nikl/cpp-workspace/cpp_py_proj/build/testTrapezoidalIntegration"
+Directory: /home/nikl/cpp-workspace/cpp_py_proj/build
+"TrapezoidalIntegrationTest" start time: Oct 23 10:32 EDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from TrapezoidalIntegrationTest
+[ RUN      ] TrapezoidalIntegrationTest.SinX
+[       OK ] TrapezoidalIntegrationTest.SinX (0 ms)
+[ RUN      ] TrapezoidalIntegrationTest.PolynomialX2_X
+[       OK ] TrapezoidalIntegrationTest.PolynomialX2_X (0 ms)
+[----------] 2 tests from TrapezoidalIntegrationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TrapezoidalIntegrationTest" end time: Oct 23 10:32 EDT
+"TrapezoidalIntegrationTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: SimpsonsIntegrationTest
+2/4 Test: SimpsonsIntegrationTest
+Command: "/home/nikl/cpp-workspace/cpp_py_proj/build/testSimpsonsIntegration"
+Directory: /home/nikl/cpp-workspace/cpp_py_proj/build
+"SimpsonsIntegrationTest" start time: Oct 23 10:32 EDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from SimpsonsIntegrationTest
+[ RUN      ] SimpsonsIntegrationTest.SinX
+[       OK ] SimpsonsIntegrationTest.SinX (0 ms)
+[ RUN      ] SimpsonsIntegrationTest.PolynomialX2_X
+[       OK ] SimpsonsIntegrationTest.PolynomialX2_X (0 ms)
+[----------] 2 tests from SimpsonsIntegrationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"SimpsonsIntegrationTest" end time: Oct 23 10:32 EDT
+"SimpsonsIntegrationTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: MonteCarloIntegrationTest
+3/4 Test: MonteCarloIntegrationTest
+Command: "/home/nikl/cpp-workspace/cpp_py_proj/build/testMonteCarloIntegration"
+Directory: /home/nikl/cpp-workspace/cpp_py_proj/build
+"MonteCarloIntegrationTest" start time: Oct 23 10:32 EDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from MonteCarloIntegrationTest
+[ RUN      ] MonteCarloIntegrationTest.SinX
+[       OK ] MonteCarloIntegrationTest.SinX (0 ms)
+[ RUN      ] MonteCarloIntegrationTest.PolynomialX2_X
+[       OK ] MonteCarloIntegrationTest.PolynomialX2_X (0 ms)
+[----------] 2 tests from MonteCarloIntegrationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MonteCarloIntegrationTest" end time: Oct 23 10:32 EDT
+"MonteCarloIntegrationTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: AdaptiveQuadratureTest
+4/4 Test: AdaptiveQuadratureTest
+Command: "/home/nikl/cpp-workspace/cpp_py_proj/build/testAdaptiveQuadratureIntegration"
+Directory: /home/nikl/cpp-workspace/cpp_py_proj/build
+"AdaptiveQuadratureTest" start time: Oct 23 10:32 EDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from AdaptiveQuadratureTest
+[ RUN      ] AdaptiveQuadratureTest.SinX
+[       OK ] AdaptiveQuadratureTest.SinX (0 ms)
+[ RUN      ] AdaptiveQuadratureTest.PolynomialX2_X
+[       OK ] AdaptiveQuadratureTest.PolynomialX2_X (0 ms)
+[----------] 2 tests from AdaptiveQuadratureTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AdaptiveQuadratureTest" end time: Oct 23 10:32 EDT
+"AdaptiveQuadratureTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 23 10:32 EDT

@@ -1,0 +1,20 @@
+# ninja log v5
+1	391	1729693856440030324	CMakeFiles/integration_lib.dir/integration_lib/src/AdaptiveQuadrature.cpp.o	6b686d9045f7b3f3
+0	444	1729693856490030323	CMakeFiles/integration_lib.dir/integration_lib/src/TrapezoidalIntegration.cpp.o	a35e0d5c16dc4497
+0	466	1729693856510030323	CMakeFiles/integration_lib.dir/integration_lib/src/SimpsonsIntegration.cpp.o	90cafad401806fa6
+1	474	1729693856520030322	CMakeFiles/integration_lib_main.dir/integration_lib/main.cpp.o	97fcdcd629fa674a
+1	485	1729693856530030322	CMakeFiles/integration_lib.dir/integration_lib/src/MonteCarloIntegration.cpp.o	cea4a654605b6356
+485	493	1729693856540030322	libintegration_lib.a	91d253540a73a8d8
+493	586	1729693856630030320	integration_lib_main	56ae505d40d1a06d
+1	706	1729693856750030318	CMakeFiles/testSimpsonsIntegration.dir/integration_lib/tests/testSimpsonsIntegration.cpp.o	7b021f4e023fd333
+2	706	1729693856750030318	CMakeFiles/testAdaptiveQuadratureIntegration.dir/integration_lib/tests/testAdaptiveQuadratureIntegration.cpp.o	e9f9450a1e053617
+1	727	1729693856770030318	CMakeFiles/testTrapezoidalIntegration.dir/integration_lib/tests/testTrapezoidalIntegration.cpp.o	fd6493deee6f8b0
+1	735	1729693856780030318	CMakeFiles/testMonteCarloIntegration.dir/integration_lib/tests/testMonteCarloIntegration.cpp.o	8f5debf6fc10f9d2
+706	777	1729693856820030317	testAdaptiveQuadratureIntegration	8d38417157efa354
+706	780	1729693856830030317	testSimpsonsIntegration	67a082c47d701fee
+727	834	1729693856880030316	testTrapezoidalIntegration	7971ae44900d857a
+736	839	1729693856880030316	testMonteCarloIntegration	e651e4c121d700cb
+2	1554	1729693857600030304	CMakeFiles/integration.dir/python_bindings/bindings.cpp.o	22c8e73076ac8311
+1554	2476	1729693858520030288	integration.cpython-310-x86_64-linux-gnu.so	7dbc8b9488f8b2bf
+0	2259	0	CMakeFiles/run_python_tests	85442a54e181be2e
+0	2259	0	/home/nikl/cpp-workspace/cpp_py_proj/build/CMakeFiles/run_python_tests	85442a54e181be2e

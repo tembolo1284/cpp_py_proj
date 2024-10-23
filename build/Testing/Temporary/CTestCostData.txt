@@ -1,0 +1,5 @@
+TrapezoidalIntegrationTest 1 0.00178034
+SimpsonsIntegrationTest 1 0.0017199
+MonteCarloIntegrationTest 1 0.00138719
+AdaptiveQuadratureTest 1 0.00066005
+---
