@@ -26,34 +26,63 @@ This library is designed to be accessed from Python using FastAPI. We plan to ex
 The project is organized as follows:
 
 PY_CPP_PROJ/
+
 ├── build/                      # Build directory (created after running CMake)
+
 ├── integration_lib/
+
 │   ├── include/                # Header files for the integration methods
+
 │   │   ├── AdaptiveQuadrature.hpp
+
 │   │   ├── Include.hpp
+
 │   │   ├── MonteCarloIntegration.hpp
+
 │   │   ├── NumericalIntegration.hpp
+
 │   │   ├── SimpsonsIntegration.hpp
+
 │   │   └── TrapezoidalIntegration.hpp
+
 │   ├── src/                    # Source files with implementations of the methods
+
 │   │   ├── AdaptiveQuadrature.cpp
+
 │   │   ├── MonteCarloIntegration.cpp
+
 │   │   ├── SimpsonsIntegration.cpp
+
 │   │   └── TrapezoidalIntegration.cpp
+
 │   ├── tests/                  # Unit tests for each integration method
+
 │   │   ├── testAdaptiveQuadratureIntegration.cpp
+
 │   │   ├── testMonteCarloIntegration.cpp
+
 │   │   ├── testSimpsonsIntegration.cpp
+
 │   │   └── testTrapezoidalIntegration.cpp
+
 │   ├── main.cpp                # Main executable demonstrating library usage
+
 │   └── README.md               # Project documentation
+
 ├── python_bindings/             # Python bindings with Pybind11
+
 │   ├── bindings.cpp            # Pybind11 bindings for the integration methods
+
 ├── fastapi_integration/         # FastAPI project exposing RESTful endpoints
+
 │   ├── main.py                 # FastAPI entry point to serve API requests
+
 │   └── requirements.txt        # FastAPI dependencies
+
 ├── CMakeLists.txt               # Root CMake build configuration
+
 └── test_integration.py          # Python script to test the Python bindings
+
 
 - **`integration_lib/`**: Contains C++ header files, source code, and unit tests.
 - **`python_bindings/`**: Contains the Pybind11 bindings for Python access to the C++ code.
