@@ -121,7 +121,7 @@ pip install fastapi uvicorn
 ```
 git clone <repository-url>
 
-cd py_cpp_proj
+cd cpp_py_proj
 
 cmake -B build -G Ninja
 
@@ -146,7 +146,7 @@ cmake --build build --target run_python_tests
 
 ### Running the FastAPI Server
 
-1. Navigate to the py_cpp_proj/ directory.
+1. Navigate to the cpp_py_proj/ directory.
 
 2. Run the FastAPI server using Uvicorn:
 
